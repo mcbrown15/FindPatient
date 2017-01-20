@@ -1,0 +1,654 @@
+/* This file would style find a physician page */
+
+html {
+    font-size: 12px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    color: #3c3c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* The "#all id" allows the content to be in the center of the page*/
+
+#all {
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*End of the #all id*/
+
+
+/* LEFT COLUMN SECTION
+----------------------------------- */
+
+div#left-column {
+    float: left;
+    width: 255px!important;
+    margin-right: 25px;
+    padding-top: 15px;
+}
+
+
+/* CRITERIA PANEL SECTION
+----------------------------------- */
+
+div#criteria {
+    color: #ffffff;
+    background: url('/images/global-site/bg-h3.png') top left repeat-x #005291;
+    margin: 0 0 10px 0;
+    padding: 6px 10px;
+    font-size: 11px;
+    border: 1px solid #b9b9b9;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#criteria legend {
+    margin: 0 0 7px -7px;
+    font-size: 12px!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF!important;
+    border-top-right-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+}
+
+#criteria p.criteriafield {
+    clear: left;
+    margin: 0 0 10px 0;
+    font-size: 11px;
+    float: right;
+}
+
+#criteria p.criteriafield label {
+    text-align: right;
+    /*width: 58px;*/
+    margin: 0;
+    padding: 0 10px 0 0;
+    /*float: left;*/
+    font-size: 90%;
+}
+
+#criteria p.criteriafield input,
+#criteria p.criteriafield select {
+    font-size: 100%;
+    width: 156px;
+    margin: 0;
+}
+
+#criteria p.criteriafield span.checkbox {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+#criteria p.criteriafield label.labelcheckbox {
+    display: inline;
+    float: none;
+    width: auto;
+    margin: 0;
+}
+
+#criteria label.help {
+    cursor: pointer;
+    background: url('/images/icon_question.png') left no-repeat;
+    clear: left;
+    display: block;
+    float: left;
+}
+
+#criteria p.criteriafield span.checkbox input {
+    width: 15px;
+    margin: 0;
+}
+
+#criteria fieldset.actions {
+    text-align: right;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+#criteria input.button {
+    width: auto;
+    float: right;
+    margin-left: 10px;
+}
+
+#criteria input.button-reset {
+    cursor: pointer;
+    float: right;
+    color: #FFF;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    font-size: 90%;
+    padding: .5em 0;
+    margin: 0;
+}
+
+
+/* KEY PANEL SECTION
+----------------------------------- */
+
+.box-heading {
+    color: #ffffff;
+    background: #005291;
+    margin: 0 0 10px 0;
+    padding: 6px 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-top-right-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+}
+
+.box-gradient {
+    margin: 0 0 15px 0;
+    padding: 0 0 10px 0;
+    border: 1px solid #b9b9b9;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#key ul {
+    list-style: none;
+}
+
+#key ul li {
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+    padding: 0 0 0 40px;
+    margin: 0 0 15px 0;
+    line-height: 12px;
+    display: inline-block;
+    height: 20px;
+}
+
+li.smh-key {
+    background: url(../images/icon_smh.png) left 2px no-repeat;
+}
+
+li.hh-key {
+    background: url(../images/icon_hh.png) left 2px no-repeat;
+}
+
+li.pcp-key {
+    background: url(../images/icon_doctor.png) 6px top no-repeat;
+    margin: 0;
+}
+
+
+/* Primary Care Section
+----------------------------------- */
+
+#primary-care {
+    background: url(../images/doctor-min.png) 120px 25px no-repeat;
+}
+
+#primary-care p {
+    font-size: 12px;
+    width: 150px;
+    margin: 0;
+    padding: 0 10px 7px 10px;
+}
+
+#primary-care ul {
+    padding: 0 0 0 20px;
+}
+
+#primary-care li {
+    font-size: 10px;
+    padding: 0 0 5px 10px;
+    background-position: 0px 2px;
+}
+
+
+/* Legal Information Section
+----------------------------------- */
+
+#legal p {
+    font-size: 10px;
+    margin: 0;
+    padding: 0 10px 7px 10px;
+}
+
+#legal ul {
+    padding: 0 0 0 20px;
+    list-style-type: none;
+}
+
+#legal li {
+    font-size: 10px;
+    padding: 0 0 5px 10px;
+    background-position: 0px 2px;
+}
+
+
+/* --- CONTENT
+----------------------------------------------------- */
+
+#content fieldset {
+    border: none;
+    /*border-top: 1px solid #cedce7;*/
+    padding: 10px 0 5px 0;
+}
+
+#content fieldset legend {
+    font-size: 124%;
+    color: #006699;
+    padding-right: 5px;
+    margin: 0;
+}
+
+#content label {
+    display: block;
+    padding-top: 2px;
+    margin: 0 5px 5px 0;
+}
+
+#content input,
+#content select {
+    margin-bottom: 7px;
+}
+
+
+/*END OF LEFT SIDE CLOUMN */
+
+a:link,
+a:active {
+    color: #916e35;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #3073a7;
+}
+
+a:visited {
+    color: #3073a7;
+}
+
+
+/* --- HEADINGS --- */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0 15px 0;
+}
+
+h1 strong {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00467f;
+    border-bottom: 1px solid #40749f;
+    padding: 0 0 1px 0;
+    line-height: 1.2;
+}
+
+ul+h2 {
+    padding-top: 10px;
+}
+
+.doctor-profile h2 {
+    clear: left;
+}
+
+h2 a:link,
+h2 a:active {
+    color: #00467f;
+    text-decoration: none;
+}
+
+h2 a:visited {
+    color: #00467f;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+h3 {
+    color: #002542;
+    margin: 20px 0 5px 0;
+    font-size: 14px;
+}
+
+h3.sectionHeading {
+    color: #00467f;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0 0 15px;
+    padding: 0 0 3px;
+    border-bottom: 1px solid #00467f;
+    width: 100%;
+    text-transform: none;
+}
+
+h4 {
+    color: #002542;
+    margin: 1em 0 0 0;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* --- TEXT --- */
+
+p {
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+}
+
+#secondary p {
+    line-height: 16px;
+}
+
+blockquote {
+    padding: 15px 0;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    margin: 25px;
+    font-style: italic;
+}
+
+
+/* This area is for styling the trail of the breadcrumbs*/
+
+#breadcrumb {
+    padding: 0;
+    min-height: 20px;
+    color: #999;
+    font-weight: bold;
+    overflow: hidden;
+    width: 950px;
+}
+
+#trail {
+    display: block;
+    width: 700px;
+    text-align: left;
+    float: left;
+}
+
+#trail a:link,
+#trail a:active {
+    color: #999;
+    text-decoration: none;
+}
+
+#trail a:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+#trail a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#breadcrumb-actions {
+    display: block;
+    float: right;
+    width: 210px;
+    text-align: right;
+    padding: 0 0 1px 0;
+}
+
+#breadcrumb-actions a {
+    padding: 0;
+    margin: 0;
+    line-height: 0px;
+    text-decoration: none;
+}
+
+a#sharePage,
+a#feedbackLink {
+    margin-left: 5px;
+}
+
+#breadcrumb-actions a img {
+    margin: 0;
+    display: inline;
+    vertical-align: middle;
+}
+
+#atffc {
+    display: none;
+}
+
+
+/* End of the #breadcrumbs id's */
+
+hr {
+    display: none;
+}
+
+
+/* RESULTS
+----------------------------------- */
+
+#search-results {
+    float: left;
+    width: 670px;
+    padding-top: 10px;
+}
+
+div#search-results h1 {
+    margin: 3px 0px;
+}
+
+div.result {
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: auto;
+    width: 100%;
+    /* Fix for IE 7 to get overflow auto to clear */
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #e4eff5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -moz-box-shadow: inset 0 0 15px #d4e5ee;
+    -webkit-box-shadow: inset 0 0 15px #d4e5ee;
+    box-shadow: inset 0 0 15px #d4e5ee;
+}
+
+div.photo,
+div.credentials,
+div.info {
+    float: left;
+}
+
+.photo {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.photo img {
+    width: 47px !important;
+    border: 1px solid #c6c6c6;
+    padding: 3px;
+    background: #ffffff;
+}
+
+div.departments {
+    font-size: 12px;
+    line-height: 1.2em;
+    margin-left: 20px;
+}
+
+div.alt {
+    background-color: #e8e3d7;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: inset 0 0 15px #dad2c0;
+    -webkit-box-shadow: inset 0 0 15px #dad2c0;
+    box-shadow: inset 0 0 15px #dad2c0;
+}
+
+div.departments ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.departments ul li {
+    color: #000000;
+    padding: 3px 0 3px 40px;
+}
+
+div.departments ul li.smh {
+    background: url(../images/icon_smh.png) left no-repeat;
+}
+
+div.departments ul li.hh {
+    background: url(../images/icon_hh.png) left no-repeat;
+}
+
+.credentials {
+    width: 340px;
+    padding-right: 10px;
+}
+
+.credentials h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.credentials h2 a {
+    color: #0067ad;
+    background-position: left top;
+    text-decoration: underline;
+    padding: 0 0 0 20px;
+}
+
+.credentials h2 a:hover {
+    color: #000000;
+}
+
+.credentials h3 {
+    font-size: 12px;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+a.link-profile {
+    background: url(../images/icon_profile.gif) left top no-repeat;
+    padding-left: 20px;
+    line-height: 16px;
+    padding-top: 1px;
+}
+
+
+/* ACCEPTING NEW PATIENTS AND APPOINTMENTS
+--------------------------------------- */
+
+div.info ul {
+    float: right;
+    list-style: none;
+    width: 228px;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+div.info ul li {
+    margin: 0;
+    padding: 0 0 2px 0;
+    background: none;
+}
+
+div.info ul li.accepting {
+    height: 22px;
+    padding: 0;
+}
+
+div.info ul li.accepting .acceptingText {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.info ul li.accepting .notAcceptingText {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: #999999;
+}
+
+div.info ul li.accepting img {
+    margin-bottom: -5px;
+}
+
+div.info ul li.admitting {
+    padding: 0;
+}
+
+div.info ul li.address {
+    display: none;
+    line-height: 13px;
+    font-size: 9px;
+}
+
+div.info ul li.address img {
+    margin-bottom: -3px;
+}
+
+div.info ul li.phone {
+    line-height: 14px;
+    font-size: 12px;
+}
+
+div.info ul li.phone .first-number {
+    font-weight: bold;
+}
+
+div.info ul li.phone .type {
+    font-style: italic;
+}
+
+div.info ul li.accepting span.acceptingText {
+    background: url(../images/icon_accepting.png) left no-repeat;
+    padding-left: 24px;
+}
+
+div.info ul li.pcp {
+    background: url(../images/icon_doctor.png) left no-repeat;
+    padding-left: 24px;
+}
+
+div.info ul li.phone {
+    background: url(../images/icon_phone.png) left no-repeat;
+    padding-left: 20px;
+}
