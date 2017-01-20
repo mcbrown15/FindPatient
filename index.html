@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title element that is on URMC page for find a physician -->
+
+        <title>
+            Find A Physician - University of Rochester Medical Center
+        </title><!--END of title page -->
+        <!-- This a link to the external page of css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"><!--END of title page -->
+    </head>
+    <body>
+        <!-- This is how you control the find a physician heading as well as -->
+        <!--the trail of breadcrumbs and the font change -->
+
+        <div id="all">
+            <div id="header">
+                <h3 class="sectionHeading">
+                    Find A Physician
+                </h3>
+            </div>
+            <!-- Trail of breadcrumbs section -->
+
+            <div id="breadcrumb&quot;">
+                <div id="trail">
+                    <a href="/">URMC</a> &nbsp;&#187;&nbsp;<a href="/people/Roster.aspx">People</a> &nbsp;&#187;&nbsp;<a href="/find-physician/">Find A Physician</a>
+                </div>
+                <!-- END of trail of breadcrumbs -->
+
+                <div id="breadcrumb-actions">
+                    <script src="js/resize.js" type="text/javascript">
+                    </script>
+                    <script src="/js/addthis.js" type="text/javascript">
+                    </script> <!-- Resizing the content on the page. Increase and decrease -->
+                     <a class="text-size" href="javascript:resizeFont('-');" id="smallerFont" title="Decrease text size"><img alt="Decrease font size" src="images/img-font-small.jpg"></a> <a class="text-size" href="javascript:resizeFont('0');" id="resetFont" title="Reset text size"><img alt="Reset font size" src="images/img-font-reset.jpg"></a> <a class="text-size" href="javascript:resizeFont('+');" id="largerFont" title="Increase text size"><img alt="Increase font size" src="images/img-font-large.jpg"></a> <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=urmcweb" id="sharePage"><img alt="Bookmark and Share" height="16" src="images/img-share.jpg" style="border:0" width="114"></a>
+                </div>
+                <span id="ContentPlaceHolderBreadcrumb_lblStatus"></span>
+
+                <hr>
+
+                <hr>
+
+                <div id="content">
+                    <div id="left-column">
+                        <div id="criteria">
+                            <fieldset>
+                                <!-- This is the section for the search criteria -->
+                                <legend>Search Criteria</legend>
+                                <p class="criteriafield">
+                                    <label for="physicianName">Name: <input class="physician-input" id="physicianName" type="text"></label>
+                                </p>
+                                <label for="physicianName"></label>
+                                <p class="criteriafield">
+                                    <label for="physicianName"><label for="department">Department: <select>
+                                        <option value='130018'>
+                                            Allergy/Immunology
+                                        </option>
+                                        <option value='30000'>
+                                            Anesthesiology
+                                        </option>
+                                        <option value='30004'>
+                                            Anesthesiology - Critical Care
+                                        </option>
+                                        <option value='30363'>
+                                            Anesthesiology - Pain Management
+                                        </option>
+                                        <option value='130030'>
+                                            Cancer - Hematology/Oncology
+                                        </option>
+                                        <option value='130019'>
+                                            Cardiology
+                                        </option>
+                                        <option value='50000'>
+                                            Dentistry
+                                        </option>
+                                        <option value='50353'>
+                                            Dentistry - General
+                                        </option>
+                                        <option value='50354'>
+                                            Dentistry - Oral & Maxillofacial
+                                        </option>
+                                        <option value='50532'>
+                                            Dentistry - Orthodontics
+                                        </option>
+                                        <option value='50765'>
+                                            Dentistry - Periodontology
+                                        </option>
+                                        <option value='50533'>
+                                            Dentistry - Prosthodontics
+                                        </option>
+                                        <option value='60000'>
+                                            Dermatology
+                                        </option>
+                                        <option value='70000'>
+                                            Emergency Medicine
+                                        </option>
+                                        <option value='130023'>
+                                            Endocrinology
+                                        </option>
+                                        <option value='80000'>
+                                            Family Medicine
+                                        </option>
+                                        <option value='81150'>
+                                            Family Medicine - Primary Care
+                                        </option>
+                                        <option value='130025'>
+                                            Gastroenterology
+                                        </option>
+                                        <option value='130027'>
+                                            General Medicine
+                                        </option>
+                                        <option value='130491'>
+                                            Geriatrics/Aging
+                                        </option>
+                                        <option value='130492'>
+                                            Hospital Medicine
+                                        </option>
+                                        <option value='100000'>
+                                            Imaging Sciences
+                                        </option>
+                                        <option value='100077'>
+                                            Imaging Sciences - Nuclear Medicine
+                                        </option>
+                                        <option value='130032'>
+                                            Infectious Disease
+                                        </option>
+                                        <option value='130000'>
+                                            Medicine
+                                        </option>
+                                        <option value='131168'>
+                                            Medicine - Hospital Medicine
+                                        </option>
+                                        <option value='130033'>
+                                            Nephrology
+                                        </option>
+                                        <option value='140000'>
+                                            Neurology
+                                        </option>
+                                        <option value='140774'>
+                                            Neurology - Epilepsy
+                                        </option>
+                                        <option value='140777'>
+                                            Neurology - Geriatrics
+                                        </option>
+                                        <option value='140779'>
+                                            Neurology - Mind
+                                        </option>
+                                        <option value='140852'>
+                                            Neurology - Neuroimmunology
+                                        </option>
+                                        <option value='141042'>
+                                            Neurology - Neurology ICU
+                                        </option>
+                                        <option value='140041'>
+                                            Neurology - Neuromuscular
+                                        </option>
+                                        <option value='140776'>
+                                            Neurology - Oncology
+                                        </option>
+                                        <option value='140778'>
+                                            Neurology - Stroke
+                                        </option>
+                                        <option value='150000'>
+                                            Neurosurgery
+                                        </option>
+                                        <option value='170000'>
+                                            Ob/Gyn
+                                        </option>
+                                        <option value='170969'>
+                                            Ob/Gyn - Infertility
+                                        </option>
+                                        <option value='170464'>
+                                            Ob/Gyn - Maternal Fetal Medicine
+                                        </option>
+                                        <option value='170460'>
+                                            Ob/Gyn - Midwifery
+                                        </option>
+                                        <option value='170045'>
+                                            Ob/Gyn - Oncology
+                                        </option>
+                                        <option value='170971'>
+                                            Ob/Gyn - Urogyn
+                                        </option>
+                                        <option value='180000'>
+                                            Occupational and Environmental Medicine
+                                        </option>
+                                        <option value='190000'>
+                                            Ophthalmology
+                                        </option>
+                                        <option value='200000'>
+                                            Orthopaedics
+                                        </option>
+                                        <option value='200484'>
+                                            Orthopaedics - Spine PMR
+                                        </option>
+                                        <option value='200493'>
+                                            Orthopaedics - Sports Medicine
+                                        </option>
+                                        <option value='210000'>
+                                            Otolaryngology / ENT
+                                        </option>
+                                        <option value='130517'>
+                                            Palliative Medicine
+                                        </option>
+                                        <option value='230000'>
+                                            Pathology/Lab Medicine
+                                        </option>
+                                        <option value='230998'>
+                                            Pathology/Lab Medicine - Anatomic Pathology
+                                        </option>
+                                        <option value='230999'>
+                                            Pathology/Lab Medicine - Clinical Pathology
+                                        </option>
+                                        <option value='240000'>
+                                            Pediatrics
+                                        </option>
+                                        <option value='240519'>
+                                            Pediatrics - Adolescent Medicine
+                                        </option>
+                                        <option value='240545'>
+                                            Pediatrics - Allergy/Immunology
+                                        </option>
+                                        <option value='240059'>
+                                            Pediatrics - Cardiology
+                                        </option>
+                                        <option value='240060'>
+                                            Pediatrics - Critical Care
+                                        </option>
+                                        <option value='50355'>
+                                            Pediatrics - Dentistry
+                                        </option>
+                                        <option value='240549'>
+                                            Pediatrics - Developmental Disabilities
+                                        </option>
+                                        <option value='70758'>
+                                            Pediatrics - Emergency Medicine
+                                        </option>
+                                        <option value='240061'>
+                                            Pediatrics - Endocrine/Metabolic
+                                        </option>
+                                        <option value='240063'>
+                                            Pediatrics - Gastroenterology
+                                        </option>
+                                        <option value='240064'>
+                                            Pediatrics - General
+                                        </option>
+                                        <option value='240520'>
+                                            Pediatrics - Genetics
+                                        </option>
+                                        <option value='240065'>
+                                            Pediatrics - Hematology/Oncology
+                                        </option>
+                                        <option value='240960'>
+                                            Pediatrics - Hospital Medicine
+                                        </option>
+                                        <option value='240066'>
+                                            Pediatrics - Infectious Disease
+                                        </option>
+                                        <option value='240487'>
+                                            Pediatrics - Neonatology
+                                        </option>
+                                        <option value='240067'>
+                                            Pediatrics - Nephrology
+                                        </option>
+                                        <option value='140775'>
+                                            Pediatrics - Neurology
+                                        </option>
+                                        <option value='240728'>
+                                            Pediatrics - Primary Care
+                                        </option>
+                                        <option value='240069'>
+                                            Pediatrics - Pulmonary
+                                        </option>
+                                        <option value='240551'>
+                                            Pediatrics - Rheumatology & Immunology
+                                        </option>
+                                        <option value='300090'>
+                                            Pediatrics - Surgery
+                                        </option>
+                                        <option value='241152'>
+                                            Pediatrics - UHS
+                                        </option>
+                                        <option value='250000'>
+                                            Physical Medicine and Rehabilitation
+                                        </option>
+                                        <option value='130459'>
+                                            Primary Care
+                                        </option>
+                                        <option value='260000'>
+                                            Psychiatry
+                                        </option>
+                                        <option value='260555'>
+                                            Psychiatry - Child & Adolescent
+                                        </option>
+                                        <option value='260763'>
+                                            Psychiatry - Marriage and Family Therapy
+                                        </option>
+                                        <option value='130036'>
+                                            Pulmonary
+                                        </option>
+                                        <option value='130454'>
+                                            Pulmonary/Critical Care
+                                        </option>
+                                        <option value='290000'>
+                                            Radiation Oncology
+                                        </option>
+                                        <option value='130037'>
+                                            Rheumatology
+                                        </option>
+                                        <option value='300000'>
+                                            Surgery
+                                        </option>
+                                        <option value='300080'>
+                                            Surgery - Cardiac
+                                        </option>
+                                        <option value='300435'>
+                                            Surgery - Cardiothoracic
+                                        </option>
+                                        <option value='300081'>
+                                            Surgery - Colon-Rectal
+                                        </option>
+                                        <option value='300083'>
+                                            Surgery - General
+                                        </option>
+                                        <option value='301162'>
+                                            Surgery - Hepato-Pancreatico-Biliary
+                                        </option>
+                                        <option value='300472'>
+                                            Surgery - Oncology
+                                        </option>
+                                        <option value='301146'>
+                                            Surgery - Ophthalmology
+                                        </option>
+                                        <option value='300092'>
+                                            Surgery - Plastic
+                                        </option>
+                                        <option value='300093'>
+                                            Surgery - Thoracic
+                                        </option>
+                                        <option value='300474'>
+                                            Surgery - Transplant
+                                        </option>
+                                        <option value='300473'>
+                                            Surgery - Trauma
+                                        </option>
+                                        <option value='300096'>
+                                            Surgery - Vascular
+                                        </option>
+                                        <option value='130769'>
+                                            University Health Service
+                                        </option>
+                                        <option value='310000'>
+                                            Urology
+                                        </option>
+                                    </select></label></label>
+                                </p>
+                                <label for="physicianName"></label>
+                                <p class="criteriafield">
+                                    <label for="physicianName"><label class="help">Hospital:</label> <span class="checkbox"><input checked="checked" name="checklocation" type="checkbox"></span> <label class="labelcheckbox" for="checklocation">Strong Memorial Hospital</label></label>
+                                </p>
+
+                                <p class="criteriafield">
+                                    <span class="checkbox"><input checked="checked" name="checklocation" type="checkbox"></span> <label class="labelcheckbox" for="checklocation">Highland Hospital</label>
+                                </p>
+                            </fieldset>
+
+                            <fieldset class="actions">
+                                <input class="button" type="submit" value="Search"> <input class="button-reset" type="submit" value="Clear">
+                            </fieldset>
+                        </div>
+                        <!-- End of the search criteria section -->
+                        <!-- Start of the icon key section -->
+
+                        <div class="box-gradient" id="key">
+                            <h2 class="box-heading">
+                                Icon Key
+                            </h2>
+
+                            <ul>
+                                <li class="smh-key">Has Privileges at<br>
+                                    Strong Memorial Hospital
+                                </li>
+
+                                <li class="hh-key">Has Privileges at<br>
+                                    Highland Hospital
+                                </li>
+
+                                <li class="pcp-key">Primary Care Physician
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End of the icon key section -->
+                        <!-- Start of the primary care section -->
+
+                        <div class="box-gradient" id="primary-care">
+                            <h2 class="box-heading">
+                                Need A Primary Care Doctor
+                            </h2>
+
+                            <p>
+                                Our doctors are affiliated with Strong Memorial and Highland Hospitals as well as Golisano Children's Hospital.
+                            </p>
+
+                            <p>
+                                <a href="https://www.urmc.rochester.edu/primary-care/doctorsearch.aspx">Find a primary care physician near you.</a>
+                            </p>
+                        </div>
+                        <!-- End of the primary care section -->
+                        <!-- Start of the legal infoformation section -->
+
+                        <div class="box-gradient" id="legal">
+                            <h2 class="box-heading">
+                                Legal Information
+                            </h2>
+
+                            <p>
+                                Federal Regulations require us to tell you about our referral practices.
+                            </p>
+
+                            <p>
+                                Participants in the "Find a Physician Database" are all active members of the medical staffs at Strong Memorial and Highland Hospitals, in certain medical staff categories. For more information about the participating categories, see below. No fee is charged to the participating doctors or to consumers.
+                            </p>
+
+                            <p>
+                                The Find a Physician database will display all physicians who have privileges in a certain specialty, or will display the name of a particular doctor, depending on how you search (by name or specialty). Individuals can be excluded from the database if they resign their medical staff privileges, if those privileges are not renewed, or if they convert to a medical staff category that is not included in the database.
+                            </p>
+
+                            <p>
+                                The Find a Physician Database includes physicians with medical staff privileges at Strong Memorial Hospital and Highland Hospital with privileges in the following categories:
+                            </p>
+
+                            <ul>
+                                <li>Attending with Admitting
+                                </li>
+
+                                <li>Attending w/o Admitting
+                                </li>
+
+                                <li>Refer and Follow
+                                </li>
+
+                                <li>Courtesy
+                                </li>
+
+                                <li>Courtsey with Admitting
+                                </li>
+
+                                <li>Courtsey w/o Admitting
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End of the legal infoformation section -->
+                    </div>
+                    <!-- End of left section -->
+                    <!-- Start of search results section -->
+
+                    <div id="search-results">
+                        <h1>
+                            <span id="resultsCount">Search Results: 4 Found</span>
+                        </h1>
+                        <!-- Search results number 1 -->
+
+                        <div id="listOfPhysicians">
+                            <div class="result">
+                                <div class="photo">
+                                    <a href="images/photo_not_available_47.jpg"><img src="images/photo_not_available_47.jpg"></a>
+                                </div>
+
+                                <div class="credentials">
+                                    <h2>
+                                        <a class="link-profile" href="#">Bob Smith</a>
+                                    </h2>
+
+                                    <div class="departments">
+                                        <h3>
+                                            Departments:
+                                        </h3>
+
+                                        <ul>
+                                            <li class="smh">Obstetrics/Gynecology
+                                            </li>
+
+                                            <li class="hh">Obstetrics/Gynecology
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="info">
+                                    <ul>
+                                        <li class="accepting">
+                                            <span class="acceptingText">Accepting New Patients</span>
+                                        </li>
+
+                                        <li class="phone">
+                                            <span class="first-number">(585) 555.5555 <span class="type">Appointment</span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End of search results number 1 -->
+                            <!-- Start of search results number 2 -->
+
+                            <div class="result alt">
+                                <div class="photo">
+                                    <a href="images/photo_not_available_47.jpg"><img src="images/photo_not_available_47.jpg"></a>
+                                </div>
+
+                                <div class="credentials">
+                                    <h2>
+                                        <a class="link-profile" href="#">Joan Smith</a>
+                                    </h2>
+
+                                    <div class="departments">
+                                        <h3>
+                                            Departments:
+                                        </h3>
+
+                                        <ul>
+                                            <li class="smh">Obstetrics/Gynecology
+                                            </li>
+
+                                            <li class="hh">Obstetrics/Gynecology
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="info">
+                                    <ul>
+                                        <li class="accepting">
+                                            <span class="acceptingText">Accepting New Patients</span>
+                                        </li>
+
+                                        <li class="phone">
+                                            <span class="first-number">(585) 555.2222 <span class="type">Appointment</span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End of search results 2 -->
+                            <!-- Search results number 3 -->
+
+                            <div id="listOfPhysicians">
+                                <div class="result">
+                                    <div class="photo">
+                                        <a href="images/photo_not_available_47.jpg"><img src="images/photo_not_available_47.jpg"></a>
+                                    </div>
+
+                                    <div class="credentials">
+                                        <h2>
+                                            <a class="link-profile" href="#">Kimmberly Smith</a>
+                                        </h2>
+
+                                        <div class="departments">
+                                            <h3>
+                                                Departments:
+                                            </h3>
+
+                                            <ul>
+                                                <li class="smh">Obstetrics/Gynecology
+                                                </li>
+
+                                                <li class="hh">Obstetrics/Gynecology
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <ul>
+                                            <li class="accepting">
+                                                <span class="acceptingText">Accepting New Patients</span>
+                                            </li>
+
+                                            <li class="phone">
+                                                <span class="first-number">(585) 555.3333 <span class="type">Appointment</span></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- End of search results number 3 -->
+                                <!-- Start of search results number 4 -->
+
+                                <div class="result alt">
+                                    <div class="photo">
+                                        <a href="images/photo_not_available_47.jpg"><img src="images/photo_not_available_47.jpg"></a>
+                                    </div>
+
+                                    <div class="credentials">
+                                        <h2>
+                                            <a class="link-profile" href="#">Victoria Smith</a>
+                                        </h2>
+
+                                        <div class="departments">
+                                            <h3>
+                                                Departments:
+                                            </h3>
+
+                                            <ul>
+                                                <li class="smh">Obstetrics/Gynecology
+                                                </li>
+
+                                                <li class="hh">Obstetrics/Gynecology
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <ul>
+                                            <li class="accepting">
+                                                <span class="acceptingText">Accepting New Patients</span>
+                                            </li>
+
+                                            <li class="phone">
+                                                <span class="first-number">(585) 555.4444 <span class="type">Appointment</span></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Start of search results number 4 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
